@@ -20,4 +20,8 @@ class Calculator
         return $a - $b;
     }
 
+    public function somaSimples($a, $b) {
+        $soma = $this->soma($a, $b);
+        return "SOMA = " . $soma;
+    }
 }
